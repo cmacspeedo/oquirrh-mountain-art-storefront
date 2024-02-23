@@ -3,7 +3,7 @@
 .hero {
   position: relative;
   overflow: hidden;
-  display: flex;
+  display: flex ;
   justify-content: center;
 
   @include small-break {

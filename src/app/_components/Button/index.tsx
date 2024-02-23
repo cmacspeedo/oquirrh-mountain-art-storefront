@@ -29,7 +29,8 @@ export const Button: React.FC<Props> = ({
   onClick,
   type = 'button',
   disabled,
-  invert, children,
+  invert,
+  children,
 }) => {
   let el = elFromProps
 
